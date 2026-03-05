@@ -2,6 +2,13 @@
 A comprehensive Value at Risk (VaR) and Expected Shortfall (ES) analysis for a two-stock portfolio (NVDA and PLD) using multiple estimation methodologies 
 including Historical Simulation, EWMA, GARCH(1,1), and Volatility Forecast Scaling (VFS).
 
+## Overview
+This project implements various risk measurement techniques to estimate 1-day and 5-day VaR and ES at 99% confidence level for an equal-weighted portfolio of NVIDIA (NVDA) and Prologis (PLD). The analysis spans from October 2023 to October 2025, providing a robust comparison of different risk estimation approaches.
+
+The repository includes two main scripts:
+   main.py – Performs full VaR/ES analysis using multiple methodologies
+   stat.py – A lightweight script for quick calculation of expected return, volatility, and other basic statistics
+   
 ## Technologies Used
 -Python – Core programming language
 -NumPy / Pandas – Data manipulation and numerical computing
@@ -28,4 +35,7 @@ Horizon	Method	Description
    git clone https://github.com/Ally-cmds/RiskMan_VaR-ES.git
    cd RiskMan_VaR-ES
 2. Install requirements: `pip install -r requirements.txt`
-3. Run: `python main.py`
+3. Run the full risk analysis: 
+   'python main.py'
+   Run the quick statistics script:
+   'python stat.py'
