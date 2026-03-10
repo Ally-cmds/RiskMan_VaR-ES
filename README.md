@@ -1,3 +1,9 @@
+# Group member
+Leung Chun Ho
+Tang Sin Yi  
+Fan Ho Yee  
+Wong Ka Nam 
+
 # RiskMan_VaR-ES
 A comprehensive Value at Risk (VaR) and Expected Shortfall (ES) analysis for a two-stock portfolio (NVDA and PLD) using multiple estimation methodologies 
 including Historical Simulation, EWMA, GARCH(1,1), and Volatility Forecast Scaling (VFS).
